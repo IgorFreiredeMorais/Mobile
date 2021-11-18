@@ -1,10 +1,18 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, SafeAreaView, Image, ScrollView } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View, SafeAreaView, Image, Button, Modal } from 'react-native';
 import Header from "./src/components/Header";
+import ModalQuadra from "./src/components/ModalQuadra";
+import ModalCampo from "./src/components/ModalCampo";
+
 
 export default function App() {
   return (
+    <>
+    <StatusBar translucent={false} />
     <Header/>
+    <ModalQuadra/>
+    <ModalCampo/>
+    </>
   );
 }
