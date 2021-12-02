@@ -10,19 +10,19 @@ export default ()=> {
       <FontAwesome
         style={{ alignSelf: 'center' }}
         name="navicon"
-        size={30}
+        size={28}
         color="white"
       />
         <FontAwesome
-        style={{ alignSelf: 'center' }}
+        style={{ alignSelf: 'center', paddingTop:5}}
         name="futbol-o"
-        size={40}
+        size={28}
         color="white"
       />
         <FontAwesome
         style={{ alignSelf: 'center' }}
         name="search"
-        size={30}
+        size={28}
         color="white"
       />
       </View>
