@@ -2,15 +2,16 @@ import 'react-native-gesture-handler';
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, SafeAreaView, Image, Button, Modal} from 'react-native';
-
-import TabNavigator from './src/routes/BottomTab';
+import Header from "../components/Header";
+import ModalCampo from "../components/ModalCampo";
 
 
 export default function App() {
   return (
     <>
     <StatusBar  backgroundColor='#DCDCDC' translucent={false} />
-    <TabNavigator/>
+    <Header/>
+    <ModalCampo/>
     </>
   );
 }

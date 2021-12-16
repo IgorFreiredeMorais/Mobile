@@ -15,10 +15,10 @@ export default () => {
   return (
     <>
     <View>
-      <View style={{marginTop:5}}>
+      <View style={{marginTop:30}}>
         <Button title='Quadra' onPress={() => {setVisible(true)}} color='#1C1C1C'/>
       </View>
-      <Modal visible={Visible} animationType={'slide'} style={styles.botao}>
+      <Modal visible={Visible} animationType={'slide'}>
         <View style={{paddingBottom:70}}>
         <Feather
         style={{ alignSelf: 'center', paddingTop:10 }}
